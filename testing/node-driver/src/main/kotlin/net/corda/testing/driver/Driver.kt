@@ -299,8 +299,7 @@ data class DriverParameters(
             notarySpecs: List<NotarySpec>,
             extraCordappPackagesToScan: List<String>,
             jmxPolicy: JmxPolicy,
-            networkParameters: NetworkParameters,
-            inMemoryDB: Boolean
+            networkParameters: NetworkParameters
     ) : this(
             isDebug,
             driverDirectory,
